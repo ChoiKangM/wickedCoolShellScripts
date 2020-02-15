@@ -18,15 +18,15 @@ validAlphaNum()
 # 메인 스크립트 시작 -- 다른 스크립트에서 이 스크립트를 포함시키려면,
 #   이 줄 아래의 모든 내용을 삭제하거나 주석 처리하면 된다.
 # ====================
-/bin/echo -n "Enter input: "
-read input
+# /bin/echo -n "Enter input: "
+# read input
 
-# 입력 유효성 검사
-if ! validAlphaNum "$input" ; then
-  echo "Please enter only letters and numbers." >&2
-  exit 1
-else
-  echo "Input is valid."
-fi
+# # 입력 유효성 검사
+# if ! validAlphaNum "$input" ; then
+#   echo "Please enter only letters and numbers." >&2
+#   exit 1
+# else
+#   echo "Input is valid."
+# fi
 
-exit 0
+# exit 0
