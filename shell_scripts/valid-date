@@ -1,0 +1,11 @@
+#!/bin/bash
+# valid-date -- 윤년 규칙을 고려해, 날짜의 유효성을 검사한다.
+
+normdate="whatever you called the normadate.sh scripts"
+
+exceedsDaysInMonth()
+{
+  # 해당 달의 월 이름과 날짜가 주어지면,
+  #   이 함수는 지정된 요일 값이 해당 월의 최대 요일보다 작거나 같으면 0,
+  #   그렇지 않으면 1을 리턴한다.
+}
